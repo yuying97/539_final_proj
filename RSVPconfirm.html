@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>RSVP Confirm Box</h2>
+
+
+<button onclick="myFunction()">RSVP</button>
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("Are you sure you want to reserve this event?")) {
+    txt = "You successfully reserve the event!";
+  } else {
+    txt = "You cancel the reservation!";
+  }
+  alert(txt)
+
+}
+</script>
+
+</body>
+</html>
